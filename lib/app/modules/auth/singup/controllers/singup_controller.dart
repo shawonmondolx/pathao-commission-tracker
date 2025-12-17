@@ -1,11 +1,8 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:pathao_heros/app/data/Api_Services.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../routes/app_pages.dart';
-import '../../../home/controllers/home_controller.dart';
 
 class SingupController extends GetxController {
   // variables
